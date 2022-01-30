@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="icon" type="image/png" href="Fixik.png" sizes="16x16">
+  <link rel='stylesheet' href='style_cart.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+
+   <!--Row for header-->
+
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="logo.png" class="logo" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="girls.html">GIRLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="boys.html">BOYS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="baby.html">BABY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productAll.html">ALL COLLECTION</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="login-icon nav-link" href="Login.html"><i class="fa fa-user"></i>LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="cart-icon nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i>CART</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class='cart'>
+
+   
+    <!--row for main content-->
+    <main>
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+      <div class="container">
+      <div class="wrapper wrapper-content animated fadeInRight">
+          <div class="row">
+              <div class="col-md-9">
+                  <div class="ibox">
+                      <div class="ibox-title">
+                          <span class="pull-right">(<strong>4</strong>) items</span>
+                          <h5>Items in your cart</h5>
+                      </div>
+                      <div class="ibox-content">
+                          <div class="table-responsive">
+                              <table class="table shoping-cart-table">
+                                  <tbody>
+                                  <tr>
+                                      <td width="90">
+                                          <div class="cart-product-imitation">
+                                          </div>
+                                      </td>
+                                      <td class="desc">
+                                          <h3>
+                                          <a href="./picturesGirls/girlsPic1.jpg" class="text-navy">
+                                            Girls Embroidered Ruffle Top
+                                          </a>
+                                          </h3>
+                                          <p class="small">
+                                            THE COLLECTION FEATURES MULTIPLE FITS AND FINISHES. THE PERFECT FOUNDATION PIECE FOR CASUAL OUTFITS, OUR T-SHIRTS ARE COMFORTABLE AND SOFT. 
+                                          </p>
+                                    
+      
+                                          <div class="m-t-sm">
+                                              
+                                              <a href="#" class="text-muted"><i class="fa fa-trash"></i> Remove item</a>
+                                          </div>
+                                      </td>
+      
+                                      <td>
+                                          $35,97
+                                      </td>
+                                      <td width="65">
+                                          <input type="text" class="form-control" placeholder="1">
+                                      </td>
+                                      <td>
+                                          <h4>
+                                            $35,97
+                                          </h4>
+                                      </td>
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+      
+                      </div>
+                      <div class="ibox-content">
+                          <div class="table-responsive">
+                              <table class="table shoping-cart-table">
+      
+                                  <tbody>
+                                  <tr>
+                                      <td width="90">
+                                          <div class="cart-product-imitation">
+                                          </div>
+                                      </td>
+                                      <td class="desc">
+                                          <h3>
+                                              <a href="./picture boys/baby/babyBoy3.jpg" class="text-navy">
+                                                Baby Boy's outfit
+                                              </a>
+                                          </h3>
+                                          <p class="small">
+                                            THE COLLECTION FEATURES MULTIPLE FITS AND FINISHES. THE PERFECT FOUNDATION PIECE FOR CASUAL OUTFITS, OUR T-SHIRTS ARE COMFORTABLE AND SOFT.
+                                          </p>
+                       
+                                          <div class="m-t-sm">
+                                              
+                                              <a href="#" class="text-muted"><i class="fa fa-trash"></i> Remove item</a>
+                                          </div>
+                                      </td>
+      
+                                      <td>
+                                          $37,98
+                                      </td>
+                                      <td width="65">
+                                          <input type="text" class="form-control" placeholder="2">
+                                      </td>
+                                      <td>
+                                          <h4>
+                                            $37,98
+                                          </h4>
+                                      </td>
+      
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+      
+                      </div>
+                      <div class="ibox-content">
+                          <div class="table-responsive">
+                              <table class="table shoping-cart-table">
+      
+                                  <tbody>
+                                  <tr>
+                                      <td width="90">
+                                          <div class="cart-product-imitation">
+                                          </div>
+                                      </td>
+                                      <td class="desc">
+                                          <h3>
+                                              <a href="./picture boys/baby/boyAccessories4.jpg" class="text-navy">
+                                                Boy's Shoes
+                                              </a>
+                                          </h3>
+                                          <p class="small">
+                                            THE COLLECTION FEATURES MULTIPLE FITS AND FINISHES. THE PERFECT FOUNDATION PIECE FOR CASUAL OUTFITS, OUR T-SHIRTS ARE COMFORTABLE AND SOFT. </p>
+                                      
+                                          <div class="m-t-sm">
+                                              
+                                              <a href="#" class="text-muted"><i class="fa fa-trash"></i> Remove item</a>
+                                          </div>
+                                      </td>
+      
+                                      <td>
+                                          $17,98
+                                      </td>
+                                      <td width="65">
+                                          <input type="text" class="form-control" placeholder="1">
+                                      </td>
+                                      <td>
+                                          <h4>
+                                              $17,98
+                                          </h4>
+                                      </td>
+      
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+      
+                      </div>
+                      <div class="ibox-content">
+                          <div class="table-responsive">
+                              <table class="table shoping-cart-table">
+      
+                                  <tbody>
+                                  <tr>
+                                      <td width="90">
+                                          <div class="cart-product-imitation">
+                                          </div>
+                                      </td>
+                                      <td class="desc">
+                                          <h3>
+                                              <a href="./picturesGirls/girlsPic1.jpg" class="text-navy">
+                                                Girls Embroidered Ruffle Top
+                                              </a>
+                                          </h3>
+                                          <p class="small">
+                                             THE PERFECT FOUNDATION PIECE FOR CASUAL OUTFITS, OUR T-SHIRTS ARE COMFORTABLE AND SOFT.
+                                          </p>
+                                      
+                                          <div class="m-t-sm">
+                                              
+                                              <a href="#" class="text-muted"><i class="fa fa-trash"></i> Remove item</a>
+                                          </div>
+                                      </td>
+      
+                                      <td>
+                                          $35,97
+                                      </td>
+                                      <td width="65">
+                                          <input type="text" class="form-control" placeholder="1">
+                                      </td>
+                                      <td>
+                                          <h4>
+                                              $35,97
+                                          </h4>
+                                      </td>
+      
+                                  </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+      
+                      </div>
+                      
+                      <div class="ibox-content">
+                          <button class="btn btn-primary pull-right"><i class="fa fa fa-shopping-cart"></i> Checkout</button>
+                          <button class="btn btn-white"><i class="fa fa-arrow-left"></i> Continue shopping</button>
+      
+                      </div>
+                  </div>
+      
+              </div>
+              <div class="col-md-3">
+                  <div class="ibox">
+                      <div class="ibox-title">
+                          <h5>Cart Summary</h5>
+                      </div>
+                      <div class="ibox-content">
+                          <span>
+                              Total
+                          </span>
+                          <h2 class="font-bold">
+                              $127,90
+                          </h2>
+      
+                          <hr>
+                          
+                          <div class="m-t-sm">
+                              <div class="btn-group">
+                              <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Checkout</a>
+                              <a href="#" class="btn btn-white btn-sm"> Cancel</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="ibox">
+                      <div class="ibox-title">
+                          <h5>Support</h5>
+                      </div>
+                      <div class="ibox-content text-center">
+                          <h3><i class="fa fa-phone"></i> +43 100 783 001</h3>
+                          <span class="small">
+                              Please contact with us if you have any questions. We are avalible 24h.
+                          </span>
+                      </div>
+                  </div>
+      
+                  <div class="ibox">
+                      <div class="ibox-content">
+      
+                          <p class="font-bold">
+                          Other products you may be interested
+                          </p>
+                          <hr>
+                          <div>
+                              <a href="./girls.html" class="product-name"> Girls outfit</a>
+                              <div class="small m-t-xs">
+                                Lorem ipsum may be used as a placeholder before the final copy is available.
+                              </div>
+                              <div class="m-t text-righ">
+      
+                              </div>
+                          </div>
+                          <hr>
+                          <div>
+                              <a href="./boys.html" class="product-name"> Boy's outfit</a>
+                              <div class="small m-t-xs">
+                                Lorem ipsum may be used as a placeholder before the final copy is available.
+                              </div>
+                              <div class="m-t text-righ">
+      
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  <footer class="raw; text-center " style="padding-top: 2%;" >
+    <!-- <h1  style="color: pink; padding: 4%">FIXIKI Kids</h1> -->
+    <h2  style="background-color: lightblue color; padding: 0.7% ;">FREE SHIPPING on Every Purchase 24/7/365!</h2>
+    <img  style="width: 100% ; margin: 2% auto 5%;" src="./picturesGirls/allGirlsWidth.gif">
+
+ 
+      <a style="color: white;" href ="girls.html">Shop Girl     |</a>
+      <a style="color: white;" href ="boys.html">Shop Boys     |</a>
+      <a style="color: white;" href ="baby.html">Shop Baby     |</a>
+      <a style="color: white;" href ="productAll.html">Shop All Products</a>
+      <br>
+      <br>
+      <a style="color: white;" href ="about.html">About Us     |</a>
+      <a style="color: white;" href ="contact.html">Contact Us     |</a>
+      <a style="color: white;" href ="item-form.html">Admin page</a>
+   
+      <p style="padding: 5%; color: white;">&copy; FIXIKI Kids 2022</p>
+   
+  </footer>
+
+  
+
+</body>
+</html>
